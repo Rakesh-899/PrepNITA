@@ -21,7 +21,7 @@ function Home() {
                 <span className="px-2 py-1 bg-gradient-to-r from from-cyan-400  via-cyan-500 to-cyan-900 rounded-lg text-white  text-1xl font-bold align-baseline">
                   PreP
                 </span>{" "}
-                NITA
+                NITH
               </h2>
               <h4 className="mb-6 text-xl font-semibold">
                 A small Initiative from our Mind_Set

@@ -349,7 +349,7 @@ function SignUp() {
             <span className="px-2 py-1 bg-gradient-to-r from from-cyan-400  via-cyan-500 to-cyan-900 rounded-lg  text-white">
               PreP
             </span>
-            NITA
+            NITH
           </Link>
           <p className="text-sm mt-5 ">
             This is a demo project. You can Sign Up with your email and

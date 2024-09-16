@@ -30,7 +30,7 @@ function Header() {
         <span className="px-2 py-1 bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-900 rounded-lg text-white">
           PreP
         </span>
-        NITA
+        NITH
       </Link>
       <div className="flex items-center gap-2 md:order-2">
         <button
