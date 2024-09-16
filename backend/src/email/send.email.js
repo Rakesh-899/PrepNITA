@@ -11,7 +11,7 @@ async function sendEmail(receiver, message) {
     const { transporter, email } = await createTransporter()
 
     const mailData = {
-      from: `PrepNITA Team <${email}>`,
+      from: `PrepNITH Team <${email}>`,
       to: receiver,
       subject: message.subject,
       template: message.template,

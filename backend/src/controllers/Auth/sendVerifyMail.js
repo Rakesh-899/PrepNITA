@@ -55,7 +55,7 @@ export const sendVerificationMail = async (_, payload) => {
 
   try {
     const messageBody = {
-      subject: 'PrepNITA : Email Verification',
+      subject: 'PrepNITH : Email Verification',
       template: 'verifymail',
       context: {
         otp: otp,

@@ -1,4 +1,4 @@
-# PrepNITA
+# PrepNITH
 
 ## Table of Contents
 

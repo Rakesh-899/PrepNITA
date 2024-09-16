@@ -28,7 +28,7 @@ export const assignInterview = async (_, payload, context) => {
       const interviewTime = dateTime.time
       // Send Email to both 
       const intervieweeMessageBody = {
-        subject: 'PrepNITA : Interview Assignment',
+        subject: 'PrepNITH : Interview Assignment',
         template: './Interview/assignInterview_interviewee',
         context: {
           intervieweeName : interview.intervieweeName,
@@ -41,7 +41,7 @@ export const assignInterview = async (_, payload, context) => {
         }, 
       }
       const interviewerMessageBody = {
-        subject: 'PrepNITA : Interview Assignment',
+        subject: 'PrepNITH : Interview Assignment',
         template: './Interview/assignInterview_interviewer',
         context: {
           interviewerName : interview.interviewerName,

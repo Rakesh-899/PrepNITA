@@ -40,7 +40,7 @@ export const revokeInterview = async (_, payload, context) => {
       const interviewDate = dateTime.date
       const interviewTime = dateTime.time
       const messageBody = {
-        subject: 'PrepNITA : Interview Revoked',
+        subject: 'PrepNITH : Interview Revoked',
         template: './Interview/revokeInterview',
         context: {
           interviewerName: interview.interviewerName,
